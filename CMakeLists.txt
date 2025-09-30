@@ -10,3 +10,5 @@ add_executable(${PROJECT_NAME}
 
 install(TARGETS ${PROJECT_NAME}
         DESTINATION bin)
+
+set(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -Og")
